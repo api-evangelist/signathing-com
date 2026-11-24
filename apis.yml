@@ -1,0 +1,27 @@
+aid: signathing-com
+name: Signathing
+description: 'Signathing is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/signathing-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-24'
+modified: '2026-11-24'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://signathing.com
+- type: Documentation
+  url: https://signathing.com/developers
+x-submission-notes: Signathing
+x-submission-probe: docs/spec 200, invented path 404 (2026-11-24)
