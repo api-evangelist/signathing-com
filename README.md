@@ -72,9 +72,33 @@ Signathing provides free e-signature services allowing unlimited documents to be
 
 Everything profiled for Signathing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/signathing-com/](https://apis.io/providers/signathing-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [Signathing API](https://apis.io/apis/signathing-com/signathing-api/) — Signathing API for e‑signature operations.
+- [Signathing API V1 API](https://apis.io/apis/signathing-com/signathing-api-v1-api/) — 100 documents a month are free. After that each document sent draws down a prepaid balance: $0.06 (101 to 500), $0.03 (501 to 3,000), $0.025 (3,001+).…
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Billing](https://apis.io/schemas/signathing-com/signathing-com-billing/)
+- [Document](https://apis.io/schemas/signathing-com/signathing-com-document/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Signathing Com Context](https://apis.io/jsonld/signathing-com/signathing-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Signathing API Rules](https://apis.io/rules/signathing-com/signathing-com-rules/)
 
 #### Security (3)
 
@@ -106,28 +130,28 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 25.6** — emerging · rubric 0.28.0 · scored 2026-11-24
+**Kin Score 52.9** — developing · rubric 0.28.0 · scored 2026-11-24
 
 | Facet | Score |
 |---|---|
-| Discoverability | 58.9 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
+| Discoverability | 75.0 |
+| Contract quality | 53.8 |
+| Contract governance | 79.1 |
 | Operational transparency | 9.5 |
 | Developer ergonomics | 16.7 |
-| Access clarity | 64.3 |
+| Access clarity | 74.5 |
 
-**Agent readiness 21.8** — agent-aware
+**Agent readiness 36.9** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
+| Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
+| Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
@@ -140,11 +164,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/signathing-com/](https://apis.io/providers/signathing-com/).
 
